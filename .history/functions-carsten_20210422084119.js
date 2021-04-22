@@ -331,9 +331,9 @@ console.log("10", checkPrime(10));
 
 function checkMail(email) {
   email = email.toLowerCase();
-  if (email.includes("@") && email.includes("." >= 1) && email.indexOf("@" !== -1) && email.indexOf("." !== -1) {
-        console.log(`${email} is valid`);
-  } 
+  if (email.includes("@") && (email.includes("." >= 1)) {
+      console.log(`${email} is valid`);
+    }
   else {
     console.log(`${email} is not valid`);
   }

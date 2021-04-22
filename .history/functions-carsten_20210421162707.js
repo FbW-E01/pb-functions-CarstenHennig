@@ -328,15 +328,3 @@ console.log("10", checkPrime(10));
 // * e.g. "john..smith@email.com" and "john.@email.com" and "john@.email.com" are all invalid
 
 // **Good Luck & Enjoy :)**
-
-function checkMail(email) {
-  email = email.toLowerCase();
-  if (email.includes("@") && email.includes("." >= 1) && email.indexOf("@" !== -1) && email.indexOf("." !== -1) {
-        console.log(`${email} is valid`);
-  } 
-  else {
-    console.log(`${email} is not valid`);
-  }
-}
-
-checkMail("its.me@me.com");

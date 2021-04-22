@@ -331,12 +331,14 @@ console.log("10", checkPrime(10));
 
 function checkMail(email) {
   email = email.toLowerCase();
-  if (email.includes("@") && email.includes("." >= 1) && email.indexOf("@" !== -1) && email.indexOf("." !== -1) {
-        console.log(`${email} is valid`);
-  } 
-  else {
+  if (email.includes("@")) {
+    if (e.includes("." > 1)) {
+      console.log(`${email} is valid`);
+    }
+    }
+  } else {
     console.log(`${email} is not valid`);
   }
 }
 
-checkMail("its.me@me.com");
+checkMail("itsme@me.com");
